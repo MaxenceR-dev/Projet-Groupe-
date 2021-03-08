@@ -1,0 +1,408 @@
+.topdiv {
+  background-color: rgb(3, 59, 74);
+}
+
+.toptext {
+  font-size: 0.8rem;
+}
+
+.bluetop {
+  font-size: 0.9rem;
+}
+.logoafpa {
+  width: 100px;
+  height: 100px;
+  padding-top: 0px;
+}
+
+.textnavbar {
+  font-size: 1.2rem;
+}
+
+.icontop {
+  background-color: rgb(249, 251, 250);
+}
+
+.icontoptaille {
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-right: 10px;
+  /* padding: 20px; */
+  box-shadow: 0px 0px 3px 3px lightgray;
+}
+
+.h4icon {
+  font-size: 1rem;
+}
+
+.picon {
+  font-size: 0.8rem;
+}
+.ih4blue {
+  font-size: rem;
+}
+
+.h4blue {
+  font-size: 1.2rem;
+}
+
+.bluedivtop {
+  position: relative;
+  margin-top: -40px;
+  z-index: 1;
+  margin-left: 70%;
+}
+
+.slide {
+  height: 700px;
+}
+.carouseltop {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 800px;
+  top: -700px;
+  padding: 0%;
+  margin: 0%;
+}
+
+.carousel-item img {
+  height: 700px;
+}
+
+.textimg {
+  position: relative;
+  top: -550px;
+  margin-top: 0px;
+  margin-left: 150px;
+  width: 50%;
+  z-index: 3;
+}
+
+.textimg h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.textimg h4 {
+  font-size: 1.5rem;
+  margin-left: 75px;
+  font-weight: bold;
+}
+
+.iconeblanche {
+  font-size: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+}
+
+.blanche {
+  /* border: 3px solid black; */
+  width: 20%;
+  height: 250px;
+  flex-direction: column;
+}
+
+.blanche h4 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.blanche p {
+  margin-left: auto;
+  margin-right: auto;
+
+  color: gray;
+  font-size: 0.9rem;
+}
+
+.blanchebordure {
+  border: lightgray 1px solid;
+  border-right: none;
+}
+
+.blanchebordure2 {
+  border: lightgray 1px solid;
+  position: relative;
+}
+.Tout {
+  position: relative;
+  top: -750px;
+}
+.divblanches {
+  background-color: white;
+}
+
+.grayh5 {
+  color: gray;
+  font-size: 1rem;
+}
+
+.graypinf {
+  color: gray;
+}
+
+.grayh3 {
+  font-size: 1.3rem;
+}
+
+.listecss {
+  list-style: none;
+  line-height: 2rem;
+}
+
+.imgdoc {
+  height: 550px;
+  margin-right: 0px;
+  padding-right: 0px;
+  width: 100%;
+}
+
+.Petitext {
+  background-color: rgb(3, 59, 74);
+  position: relative;
+  top: -50px;
+}
+
+.Petitext h2 {
+  font-size: 1.7rem;
+}
+
+.bgnone {
+  background: none;
+}
+
+/* .Petitext h2{
+    font-size: 1.4rem;
+} */
+
+.carousel-item img {
+  min-width: 100%;
+  margin: none;
+}
+
+.fin {
+  margin-top: -800px;
+}
+@media (max-width: 575.98px) {
+  .divtop a {
+    margin-left: 15px;
+  }
+  .bluedivtop {
+    width: 50%;
+    margin-top: 5px;
+    margin-left: 50%;
+  }
+
+  .contcarousel {
+    height: 500px;
+  }
+  .carousel {
+    height: 500px;
+  }
+  .carousel-inner{
+      height: 500px;
+  }
+  .carousel-item{
+      height: 500px;
+  }
+  .carousel-item img{
+    height: 500px;
+}
+.textimg {
+    position: relative;
+    top: -400px;
+    margin-top: 0px;
+    margin-left: 150px;
+    width: 50%;
+    z-index: 3;
+  }
+.textimg h4{
+    font-size: 1rem;
+}
+.textimg h1{
+    font-size: 1.5rem;
+}
+  .carouseltop {
+    min-height: 500px;
+    top: -500px;
+  }
+  .divblanches {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blanche {
+    /* border: 3px solid black; */
+    width: 100%;
+    height: 150px;
+    flex-direction: column;
+  }
+  .iconeblanche {
+    margin-top: 25px;
+  }
+
+  .Tout {
+    position: relative;
+    top: -530px;
+  }
+  .fin {
+    margin-top: -570px;
+  }
+  .btnfin{
+      margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .row1{
+        justify-content:center;
+    }
+    .divtop a {
+        margin-left: 15px;
+      }
+      .bluedivtop {
+        width: 50%;
+        margin-top: 5px;
+        margin-left: 50%;
+      }
+    
+      .contcarousel {
+        height: 500px;
+      }
+      .carousel {
+        height: 500px;
+      }
+      .carousel-inner{
+          height: 500px;
+      }
+      .carousel-item{
+          height: 500px;
+      }
+      .carousel-item img{
+        height: 500px;
+    }
+    .textimg {
+        position: relative;
+        top: -400px;
+        margin-top: 0px;
+        margin-left: 150px;
+        width: 50%;
+        z-index: 3;
+      }
+    .textimg h4{
+        font-size: 1rem;
+    }
+    .textimg h1{
+        font-size: 1.5rem;
+    }
+      .carouseltop {
+        min-height: 500px;
+        top: -500px;
+      }
+      .divblanches {
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .blanche {
+        /* border: 3px solid black; */
+        width: 100%;
+        height: 150px;
+        flex-direction: column;
+      }
+      .iconeblanche {
+        margin-top: 25px;
+      }
+    
+      .Tout {
+        position: relative;
+        top: -530px;
+      }
+      .fin {
+        margin-top: -570px;
+      }
+      .btnfin{
+          margin-bottom: 10px;
+      }
+      
+ }
+
+ @media (min-width: 992px) and (max-width: 1199.98px){
+    .row1{
+        justify-content:center;
+    }
+    .divtop a {
+        margin-left: 0px;
+      }
+      .bluetop{
+          font-size: 1rem;
+      }
+      .Appdiv{
+          padding-top: 0px;
+      }
+      .navbar{
+          padding: 0px;
+      }
+      .bluedivtop {
+        width: 50%;
+        margin-top: 5px;
+        margin-left: 50%;
+      }
+    
+      .contcarousel {
+        height: 500px;
+      }
+      .carousel {
+        height: 500px;
+      }
+      .carousel-inner{
+          height: 500px;
+      }
+      .carousel-item{
+          height: 500px;
+      }
+      .carousel-item img{
+        height: 500px;
+    }
+    .textimg {
+        position: relative;
+        top: -400px;
+        margin-top: 0px;
+        margin-left: 150px;
+        width: 50%;
+        z-index: 3;
+      }
+    .textimg h4{
+        font-size: 1rem;
+    }
+    .textimg h1{
+        font-size: 1.5rem;
+    }
+      .carouseltop {
+        min-height: 500px;
+        top: -500px;
+      }
+
+    
+ 
+      .iconeblanche {
+        margin-top: 25px;
+      }
+    
+      .Tout {
+        position: relative;
+        top: -630px;
+      }
+      .fin {
+        margin-top: -570px;
+      }
+      .btnfin{
+          margin-bottom: 10px;
+      }
+ }
+
+ @media (min-width: 1200px) { 
+
+ }
